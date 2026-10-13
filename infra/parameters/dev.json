@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environment": { "value": "dev" },
+    "projectTag": { "value": "derivs-anomaly" },
+    "storageAccountName": { "value": "REPLACE_WITH_UNIQUE_LOWERCASE_NAME" },
+    "registryName": { "value": "REPLACE_WITH_UNIQUE_REGISTRY" },
+    "eventHubNamespaceName": { "value": "REPLACE_WITH_UNIQUE_NAMESPACE" },
+    "keyVaultName": { "value": "REPLACE_WITH_UNIQUE_KEYVAULT" },
+    "apiKeySecretUri": { "value": "https://REPLACE_WITH_UNIQUE_KEYVAULT.vault.azure.net/secrets/api-key" },
+    "image": { "value": "REPLACE_WITH_REGISTRY/derivs-anomaly:REPLACE_WITH_GIT_SHA" }
+  }
+}
