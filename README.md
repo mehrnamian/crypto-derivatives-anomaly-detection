@@ -30,4 +30,4 @@ The following affordable, code-focused improvements are candidates for future up
 
 ## Azure deployment
 
-Azure resources were not provisioned or deployed from this workspace. Only dev is staged; there is no prod deployment configuration. The owner must complete Phase 0 and personally review/execute the dev what-if and deployment steps. No Azure test or production-readiness claim is made by this repository.
+To be done...
